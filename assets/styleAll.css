@@ -1,0 +1,122 @@
+
+  .headerMain{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   #formId{
+    background: white;
+    border-radius: 15px;
+    padding: 60px 45px 30px;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 10%);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+    margin: auto;
+  }
+  .radio1, .radio2{
+    width: 100%;
+    text-align: center;
+  }
+  .fils1{
+    padding-right: 0.4rem;
+  }
+  input{
+    width: 25px;
+    height: 25px;
+  }
+  input[type='radio'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border:1px solid rgb(220, 216, 216);
+    border-radius:50%;
+    outline:none;
+    box-shadow:0 0 5px 0px gray inset;
+  }
+  input[type='radio']:hover {
+    box-shadow:0 0 5px 0px #53223f inset;
+  }
+  input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 20% auto;    
+    border-radius:50%;    
+  }
+  input[type='radio']:checked:before {
+    background:linear-gradient(180deg, #49a09b, #3d8291);
+  }
+  h1{
+    background: linear-gradient(180deg, #515656, #00080a);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+  }
+  button{
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius:40px;
+    background: #fff;
+    border: 2px solid #00080a;
+    color:#515656;
+    letter-spacing:1px;
+    text-shadow:0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 3em;
+  }
+  button:hover {
+    color:white;
+    background: #919599;
+    transform: scale(1.1);
+  }
+  #result{
+    font-weight: 550;
+    font-size: 1.1em;
+  }
+  .containDescript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containrerLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:200px;
+    height:80px;
+    outline:none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .link{
+    text-align: left;
+  }
+  .containDescript a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 0 #515656;
+    color: #062441;
+    margin: 0 -.1rem;
+    padding: 0 .3rem;
+    transition: color .2s ease-in-out, box-shadow .5s ease-in-out;
+  }
+  .containrerLink a:hover {
+    box-shadow: inset 8em 0 0 0 #000405;
+    color: white;
+  }
+  .resultInner{
+    font-size: 1.6em;
+  }

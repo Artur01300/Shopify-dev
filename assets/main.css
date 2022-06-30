@@ -1,0 +1,25 @@
+.container_icons{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5em;
+}
+.icons{
+    background: white;
+    border-radius: 15px;
+    padding: 2em;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 10%);
+}
+.flexIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 1em;
+}
+.flexIcons a{
+    transition-duration: .8s;
+}
+.flexIcons a:hover{
+    transform:scale(1.1);
+}
